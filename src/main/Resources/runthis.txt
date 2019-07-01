@@ -1,0 +1,57 @@
+x := 40;
+y := 5;
+z := true;
+
+while (z) do
+y := y + 1;
+x := x / 2;
+z := false
+endwhile;
+z := true;
+
+while (z) do
+	y := y + 1;
+	x := 20 / 2;
+	z := true;
+	if (y == 7)
+	then 
+	x := 0;
+	skip
+	else 
+	y := 0;
+	skip
+	endif
+endwhile;
+
+if !(x == 0)
+while !(x == 5)
+do
+x := x + 1
+endwhile;
+
+
+
+while (z) do
+	x := 20 / 2;
+	z := true;
+	if (y == 7)
+	then
+	y := x + 5
+	else
+	y := 0;
+	skip
+	endif
+endwhile
+
+
+
+
+
+
+
+
+
+
+
+
+
